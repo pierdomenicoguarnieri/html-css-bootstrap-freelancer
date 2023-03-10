@@ -1,0 +1,9 @@
+.debug{
+  min-height: 80px;
+  background-color: rgba(255, 0, 0, 0.5);
+  border: 1px solid black;
+}
+
+header{
+  height: 80px;
+}
