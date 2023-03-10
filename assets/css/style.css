@@ -7,3 +7,7 @@
 header{
   height: 80px;
 }
+
+section{
+  min-height: 400px;
+}
