@@ -20,6 +20,27 @@ section, #pg-jumbotron{
   min-height: 400px;
 }
 
+#pg-jumbotron{
+  margin-top: 80px;
+  background-color: #1ABC9C;
+}
+
+#pg-jumbotron img{
+  width: 300px;
+}
+
+.pg-divider i{
+  margin: 0 40px;
+}
+
+.pg-divider::before, .pg-divider::after{
+  content: "";
+  width: 15%;
+  height: 5px;
+  background-color: white;
+  border-radius: 3px;
+}
+
 footer{
   min-height: 100px;
 }
