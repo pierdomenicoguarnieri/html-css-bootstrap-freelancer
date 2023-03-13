@@ -4,8 +4,16 @@
   border: 1px solid black;
 }
 
-header{
-  height: 80px;
+header .navbar-collapse {
+  flex-grow: 0;
+}
+
+nav{
+  background-color: #2C3E50;
+}
+
+.navbar-toggler-icon{
+  filter: invert(59%) sepia(35%) saturate(0%) hue-rotate(222deg) brightness(84%) contrast(90%); 
 }
 
 section, #pg-jumbotron{
