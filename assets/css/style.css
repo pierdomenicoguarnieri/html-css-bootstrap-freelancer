@@ -20,6 +20,10 @@ section, #pg-jumbotron{
   min-height: 400px;
 }
 
+section{
+  scroll-margin-top: 84px;
+}
+
 #pg-jumbotron{
   margin-top: 80px;
   background-color: #1ABC9C;
@@ -98,5 +102,29 @@ section, #pg-jumbotron{
 }
 
 footer{
-  min-height: 100px;
+  background-color: #3A546D;
+}
+
+footer .pg-top-footer ul{
+  padding: 0;
+}
+
+footer .pg-top-footer ul li{
+  list-style: none;
+}
+
+footer .pg-top-footer ul li a{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+footer .pg-top-footer p > a{
+  color: #1ABC9C;
+  text-decoration: none;
+}
+
+footer .pg-bottom-footer{
+  background-color: #2C3E50;
 }
