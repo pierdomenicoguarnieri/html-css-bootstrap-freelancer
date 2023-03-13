@@ -30,6 +30,7 @@ section, #pg-jumbotron{
 }
 
 .pg-divider i{
+  color: white;
   margin: 0 40px;
 }
 
@@ -39,6 +40,34 @@ section, #pg-jumbotron{
   height: 5px;
   background-color: white;
   border-radius: 3px;
+}
+
+.pg-divider.pg-dark i{
+  color: #2C3E50;
+}
+
+.pg-divider.pg-dark::before, .pg-divider.pg-dark::after{
+  background-color: #2C3E50;
+}
+
+.overlay{
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transition: all .2s;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.overlay::after{
+  font-family: "FontAwesome";
+  content: "\f055";
+  color: #1ABC9C;
+  font-size: 6rem;
+}
+
+.pg-img-container:hover .overlay{
+  opacity: 1;
 }
 
 footer{
