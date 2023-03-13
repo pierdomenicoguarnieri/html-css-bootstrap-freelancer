@@ -70,6 +70,10 @@ section, #pg-jumbotron{
   opacity: 1;
 }
 
+#about{
+  background-color: #1ABC9C;
+}
+
 footer{
   min-height: 100px;
 }
