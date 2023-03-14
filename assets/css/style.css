@@ -4,6 +4,18 @@
   border: 1px solid black;
 }
 
+h1.pg-h1-big{
+  font-size: calc(2rem + 1.6vw);
+}
+
+h1.pg-h1-normal{
+  font-size: calc(1.5rem + 1.6vw);
+}
+
+span.pg-undertext{
+  font-size: calc(0.8rem + 0.8vw)
+}
+
 header .navbar-collapse {
   flex-grow: 0;
 }
@@ -35,7 +47,7 @@ section{
 
 .pg-divider i{
   color: white;
-  margin: 0 40px;
+  margin: 0 2%;
 }
 
 .pg-divider::before, .pg-divider::after{
